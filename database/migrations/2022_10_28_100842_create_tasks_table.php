@@ -22,6 +22,7 @@ return new class extends Migration
             $table->Integer('order');
             $table->timestamp('due_date');
             $table->unsignedBigInteger('task_id')->nullable();
+            $table->Integer('is_deleted');
 
         });
     }
