@@ -25,6 +25,7 @@
 
 <main>
 <h3 class="mt-2 ml-4" >Welcome , continue what you started :</h3>
+    <button class="btn btn-primary"><a href="{{route('tasks.create')}}">Add task</a></button>
 <div class="tasks-container">
 
     <table  class=" table mytable">
